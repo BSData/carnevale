@@ -1,0 +1,2543 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="680b-ddc1-8e64-df34" name="Gifted" revision="1" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries>
+    <selectionEntry id="79e7-535c-d852-99b7" name="Black Spectre" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e409-c64f-a203-a428" name="Black Spectre" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="3"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="30"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="6"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="-"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="50"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Monster, Unique, Undead"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="6"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="4"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0ed9-8ef1-cf4a-88ac" name="Supernatural" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Whenever this character causes an opponent to lose 1 or more Life, that character must make a Basic MIND Roll. If they fail, they lose 1 additional Life and recieve a Stun counter.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="758a-20d9-1ba4-fe9b" name="Berserk" hidden="false" targetId="ebb5-0dc9-d231-40f6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="e68d-3972-5899-8f1e" name="Ethereal" hidden="false" targetId="1612-a49f-a568-1433" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="9849-33af-efdb-32d8" name="Fear " hidden="false" targetId="6f00-19f3-4905-2eaf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="0305-0fbd-6906-7f91" name="Flight" hidden="false" targetId="dab7-7d57-8187-8d24" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5c17-e68e-f67b-585a" name="Mindless" hidden="false" targetId="0de7-21e4-39ea-5e7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d71a-f2e7-c15d-6337" name="Universal Shielding " hidden="false" targetId="99e5-3309-75bd-83b0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(4)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9002-fb89-eb0b-d239" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="476a-529a-9683-2aff" name="New CategoryLink" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c9d1-0690-3290-5faa" name="Spectral Touch" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f270-743d-7ea3-f538" name="Spectral Touch" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-2"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58ed-f6e7-1f70-8cb2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddae-e9dd-1004-d957" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="40.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46f5-c323-c566-0ccc" name="Brighella" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="5bd3-95b5-e50b-45c8" name="Brighella" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="2"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="12"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="4"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="-"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Unique, Commedia dell’Arte"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="5"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="5"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="3"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="26f6-970a-3c8b-eb20" name="Hunter" hidden="false" targetId="970a-437d-4740-b355" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="02e9-4a1a-192a-d223" name="Expert Marksman " hidden="false" targetId="f78e-d895-77ef-c831" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10bd-8e72-c870-37c5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="e210-b572-33f7-1440" name="New CategoryLink" hidden="false" targetId="4af5-dde4-b2f7-8b76" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9bb7-8c45-8c7d-c5d2" name="Atrezzo Crossbow" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9c48-45f8-910e-6de3" name="Atrezzo Crossbow" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="15&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-4"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Two-handed, Reload (1)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="fc21-6898-8168-6bfa" name="Reload" hidden="false" targetId="5f1e-7be2-0491-e6b9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="append" field="name" value="(1)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="9157-7e0b-8a63-5b1a" name="Two-handed" hidden="false" targetId="e7dd-ff41-27d1-40cd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e88-5a58-97b8-aaaf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47b6-2559-864a-8944" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="19.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eeee-156c-f76b-a7c1" name="Burratino" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="dc3c-7540-13d6-27ee" name="Burratino" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="3"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="11"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="5"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="-"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="5"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="3"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5659-bc3e-4fef-9028" name="Diminuitive" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This character counts all base sizes as larger than it. This affects Hunter,
+Grappling, and Drowning, for example.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="31ae-f3be-668e-caf9" name="Hunter" hidden="false" targetId="970a-437d-4740-b355" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="498f-b177-04b1-96c1" name="Engage " hidden="false" targetId="2d6c-a7ca-f38e-c874" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9a10-3219-e9a0-148d" name="Expert Offence " hidden="false" targetId="fef5-178f-8be2-b34a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ddfe-583d-8003-e0f7" name="Mindless" hidden="false" targetId="0de7-21e4-39ea-5e7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="4236-77ba-892b-4e1f" name="Vampiric Attack " hidden="false" targetId="a5cb-f8ef-08e1-f92c" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b174-9bfa-dbe9-c31d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6a57-0129-0ea0-dab6" name="New CategoryLink" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4278-97c3-b290-251c" name="Carving Knife" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="cc91-e539-c580-c65f" name="Carving Knife" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c56-e737-88f0-dc27" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf2b-b6b2-4374-59b3" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="16.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f05-e83c-94ab-d03e" name="Colombina" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="bca6-5b06-05a4-8163" name="Colombina" hidden="false" profileTypeId="434c-1d3d-1d6c-bd67" profileTypeName="Henchmen">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="eaf6-b8da-c7b6-89ca" value="2"/>
+            <characteristic name="Life" characteristicTypeId="40e3-666d-ed09-bec5" value="12"/>
+            <characteristic name="Will" characteristicTypeId="2762-71f3-d9d0-5ad1" value="4"/>
+            <characteristic name="Command" characteristicTypeId="7c80-a01f-227e-9df6" value="2"/>
+            <characteristic name="Size" characteristicTypeId="08ca-44b0-5306-b9c1" value="30"/>
+            <characteristic name="Keywords" characteristicTypeId="3101-6beb-3750-26e2" value="Human, Unique, Commedia dell’Arte"/>
+            <characteristic name="MOV" characteristicTypeId="6bc4-1a4e-ca0a-d0b6" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="cbcf-1e9c-6663-3648" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="cd52-99be-a438-fbc9" value="3"/>
+            <characteristic name="PRO" characteristicTypeId="1ea3-5687-97a8-b9ba" value="3"/>
+            <characteristic name="Mind" characteristicTypeId="5af8-f356-bfc6-7950" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="eb32-e551-70cc-a3a5" name="Reflection" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per activation, pick a character in base contact with this one. That
+character loses 1 Will, and this character gains 1 Command Point. This character may only use Command Points on its own Command Ability. </description>
+        </rule>
+        <rule id="49d9-1d53-3964-a3c2" name="Narcissist" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Command Ability: This character adds 2 to either MOV, ATT, DEX, Mind or PRO until the start of its next activation.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="27fe-0a09-ea67-b5ac" name="Parry " hidden="false" targetId="a173-c687-14d6-7ca7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bd7-35e9-fec4-8799" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3b29-f450-4941-bf97" name="New CategoryLink" hidden="false" targetId="4af5-dde4-b2f7-8b76" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f155-02a0-a0db-deab" name="Gilded Mirror" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c99b-3992-e153-fc53" name="Gilded Mirror" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b40-f810-e937-7858" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc9-805a-555d-768e" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0cda-0099-d4b5-31ba" name="Fadhila" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="47e0-1e56-c703-69d2" name="Fadhila" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="3"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="12"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="8"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="4"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="Protective Bubble"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="5"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="3"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="4"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a73e-9423-64f4-41df" name="Protective Bubble" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Pick a number between 1-6. Any characters (friendly and enemy) within that many inches gain Universal Shielding (4), and Expert Protection (4) until the end of the round.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="47da-4521-3ce4-4f8d" name="Mage " hidden="false" targetId="b814-4bbd-d146-8837" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="710a-fb9c-1c73-7e30" name="Expert Sorcerer " hidden="false" targetId="8889-9e7f-6ba9-bf82" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="03d0-491a-5af4-ee5f" name="Universal Shielding " hidden="false" targetId="99e5-3309-75bd-83b0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(4)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9ac-c4ea-12e5-1e58" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9db1-2ebe-4eb2-a55a" name="Heroes" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="0c9f-a6cc-957c-b8ce" name="Unarmed" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9574-e79e-8ca3-8fe5" name="Unarmed" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="+1"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Aquatic"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d103-cef9-bfcc-72eb" name="Aquatic" hidden="false" targetId="1219-6870-7ce2-bb48" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc68-e5d1-6902-59f2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4af-2275-6b9e-63f5" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="23cb-2c41-b2d7-0e03" name="Magic" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="0ba1-b857-842d-2806" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61d9-16ca-2cd5-2a54" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="0ba1-b857-842d-2806" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2a8c-aba2-7d77-4152" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ba1-b857-842d-2806" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="e775-a4d5-b8b5-5159" name="Divinity" hidden="false" targetId="_Divinity" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="_Sovereignity" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="9f35-fb42-a02c-1255" name="Magic" hidden="false" targetId="211e-de54-6609-279e" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="008d-f30e-fab8-e347" name="Rune of Sovereignity" hidden="false" targetId="_Sovereignity" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="_Divinity" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="ea65-28a8-8769-aa88" name="Magic" hidden="false" targetId="211e-de54-6609-279e" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b7c-6d43-f7cf-39dc" name="Fate" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="8996-0119-b6f1-d91f" name="Fate" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="2"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="14"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="8"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="4"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="40"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="Aura of Inevitability"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="3"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="3"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b3b3-b1f3-ff4c-7f82" name="Aura of Inevitability" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Pick an enemy in line of sight within 6”. Make an Opposed Mind Roll. If succesful, the target loses 2 Will and 2 Life, and this character gains 2 Will.</description>
+        </rule>
+        <rule id="6108-b0b4-7644-2a4e" name="The Same Coin" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If choosing Fate for your gang, you must also include Justice.</description>
+        </rule>
+        <rule id="ab35-17ef-ffc5-e3d6" name="The Other Side" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>You may only have 1 character with this ability on the board at any time; do not deploy any others at the start of the game. At the start of each round, provided the other character hasn’t been killed, you may choose to place it within 1” of this character and then remove this character from the board. If this character is killed and the other hasn’t been, place the other character within 1” before removing this one. Life, Will, and Command Points are retained when a character is removed from play by this rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7f7c-5630-6be0-875c" name="Expert Sorcerer " hidden="false" targetId="8889-9e7f-6ba9-bf82" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ed42-a928-8948-94af" name="Ethereal" hidden="false" targetId="1612-a49f-a568-1433" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="5684-1382-182f-90ad" name="Mage " hidden="false" targetId="b814-4bbd-d146-8837" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="894e-1933-3773-95d5" name="Mindless" hidden="false" targetId="0de7-21e4-39ea-5e7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="57de-9078-29a7-1082" name="Universal Shielding " hidden="false" targetId="99e5-3309-75bd-83b0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5557-481f-3ff8-167f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b771-6860-11c0-5c49" name="Heroes" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="da4e-1f19-870d-8011" name="Book of Destiny" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9f02-8cd4-d6b5-7879" name="Book of Destiny" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="+1"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04bd-bf80-c48f-863a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3d1-665f-52e3-92a1" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3515-6555-a99b-2142" name="Magic" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="8ecd-9fae-995e-a1ae" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6552-8ebf-a637-431e" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="8ecd-9fae-995e-a1ae" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61d9-16ca-2cd5-2a54" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ecd-9fae-995e-a1ae" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="59a4-a73c-2aa3-359d" name="Blood Rites" hidden="false" targetId="_Blood_Rites" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="_Sovereignity" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="637f-eb96-effa-c5ca" name="Magic" hidden="false" targetId="211e-de54-6609-279e" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="aa21-8528-9102-6150" name="Rune of Sovereignity" hidden="false" targetId="_Sovereignity" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="_Blood_Rites" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="8176-d566-93e3-e471" name="Magic" hidden="false" targetId="211e-de54-6609-279e" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="692a-7474-a1d6-f4c0" name="Harlequin" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="f126-1be3-183d-6f59" name="Harlequin" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="3"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="12"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="6"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="-"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="5"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="8"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="5"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="1"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="a509-9475-687b-cdbe" name="Infiltration" hidden="false" targetId="fe65-42b0-9650-cfd7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="d988-4d05-b67c-a2dd" name="Acrobatic " hidden="false" targetId="e930-d79b-7ff5-4ab3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f7e3-44ab-50c6-6c96" name="Pickpocket" hidden="false" targetId="9414-cd95-3f15-740d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="78bc-a17e-f7bb-92f5" name="Slippery " hidden="false" targetId="8220-3a12-50b8-a444" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b92-4ee9-9f23-174f" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="061e-00d1-6dae-a946" name="New CategoryLink" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7e6e-b54d-5674-7cf9" name="Short Sword" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="730c-995d-14fa-542d" name="Short Sword" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="+1"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="+1"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3def-4a40-6705-11ca" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04fc-9504-2a49-c258" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="223b-64e3-cdb8-3346" name="Il Capitano" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="c973-1154-7d18-af8c" name="Il Capitano" hidden="false" profileTypeId="35ee-46a2-7094-083c" profileTypeName="Leaders">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="137e-d548-95be-f4b4" value="3"/>
+            <characteristic name="Life" characteristicTypeId="7e0d-4382-cbc9-8602" value="13"/>
+            <characteristic name="Will" characteristicTypeId="d937-b521-b210-a5f3" value="3"/>
+            <characteristic name="Command" characteristicTypeId="4037-59fc-a7f6-c79c" value="6"/>
+            <characteristic name="Size" characteristicTypeId="a4b0-8af3-88c8-bd44" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="9e13-ef36-a975-e1b3" value="Stage Manager"/>
+            <characteristic name="Keywords" characteristicTypeId="43df-3e1f-2326-a467" value="Human, Unique, Commedia dell’Arte"/>
+            <characteristic name="MOV" characteristicTypeId="f7e1-aba1-9f97-3e60" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="13e9-1455-3672-5955" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="6878-8eb2-b6ec-7247" value="5"/>
+            <characteristic name="PRO" characteristicTypeId="7122-25a8-94f0-f3e7" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="64ad-8438-e10a-7c78" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="1bdd-d26a-ae58-82ee" name="Stage Manager" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>2 friendly characters within 12” may make an immediate Move action. This movment cannot be used to move into base contact with an enemy.</description>
+        </rule>
+        <rule id="2f05-e348-605e-34de" name="Troupe Leader" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>All friendly characters with the Commedia dell’Arte keyword that can draw line of sight to this character gain Companion (Il Capitano).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="fa62-368c-73d2-c18c" name="Brave" hidden="false" targetId="f96e-67cc-7112-d2ed" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="7fd7-2c34-03f3-928b" name="Brawler " hidden="false" targetId="4f31-7f38-48e7-a8a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="946c-1b36-1431-092f" name="Expert Offence " hidden="false" targetId="fef5-178f-8be2-b34a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3e08-a0f5-a8a2-e23f" name="First Strike " hidden="false" targetId="575b-9882-26b0-5565" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f819-b161-ab0c-0ae0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="392d-e4e1-e6f2-3d83" name="New CategoryLink" hidden="false" targetId="78bd-9160-d14c-5e8a" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d8ea-59d5-34d3-1771" name="Greatsword" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3c53-48aa-c47f-0a70" name="Greatsword" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="2&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="+2"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Two-handed"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6000-fcd1-cfec-86b6" name="Two-handed" hidden="false" targetId="e7dd-ff41-27d1-40cd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de83-a23a-b880-71da" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eba1-bc63-4776-64d9" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="15d0-e43f-57ff-5820" name="Il Dottore" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1826-1e35-b3e9-9ba8" name="Il Dottore" hidden="false" profileTypeId="434c-1d3d-1d6c-bd67" profileTypeName="Henchmen">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="eaf6-b8da-c7b6-89ca" value="2"/>
+            <characteristic name="Life" characteristicTypeId="40e3-666d-ed09-bec5" value="13"/>
+            <characteristic name="Will" characteristicTypeId="2762-71f3-d9d0-5ad1" value="7"/>
+            <characteristic name="Command" characteristicTypeId="7c80-a01f-227e-9df6" value="-"/>
+            <characteristic name="Size" characteristicTypeId="08ca-44b0-5306-b9c1" value="30"/>
+            <characteristic name="Keywords" characteristicTypeId="3101-6beb-3750-26e2" value="Human, Unique, Commedia dell’Arte"/>
+            <characteristic name="MOV" characteristicTypeId="6bc4-1a4e-ca0a-d0b6" value="3"/>
+            <characteristic name="DEX" characteristicTypeId="cbcf-1e9c-6663-3648" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="cd52-99be-a438-fbc9" value="3"/>
+            <characteristic name="PRO" characteristicTypeId="1ea3-5687-97a8-b9ba" value="4"/>
+            <characteristic name="Mind" characteristicTypeId="5af8-f356-bfc6-7950" value="3"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="9f4e-13b7-d713-fe2e" name="Brawler " hidden="false" targetId="4f31-7f38-48e7-a8a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6df7-06a1-0abd-a426" name="Engage " hidden="false" targetId="2d6c-a7ca-f38e-c874" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(3)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5059-5b70-f46b-3861" name="Mage " hidden="false" targetId="b814-4bbd-d146-8837" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="217b-fec3-5d6d-56f7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="53e4-eb57-62be-b776" name="New CategoryLink" hidden="false" targetId="4af5-dde4-b2f7-8b76" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="590b-85fa-9acb-a981" name="Wine Bottle" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c22a-4283-8ccf-09af" name="Wine Bottle" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4822-5496-daa8-d41d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d6ba-9a0f-0c32-422a" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="0859-d911-fcbf-e9f5" name="Magic" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="d894-73b8-b3d2-2bdd" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a282-3888-eb98-59f6" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="d894-73b8-b3d2-2bdd" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ae62-c330-ead4-39ce" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d894-73b8-b3d2-2bdd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="2c33-6bc2-8eda-9853" name="Fateweaving" hidden="false" targetId="_Fateweaving" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="_Wild" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="9393-68c1-dfbb-623e" name="Magic" hidden="false" targetId="211e-de54-6609-279e" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="81af-f68a-d1f4-11ca" name="Wild Magic" hidden="false" targetId="_Wild" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="_Fateweaving" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="9af2-5333-c9fb-4d55" name="Magic" hidden="false" targetId="211e-de54-6609-279e" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="18.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0013-fa4e-d5c7-9a2e" name="Justice" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="daf7-282a-cb16-e8a8" name="Justice" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="2"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="14"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="5"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="-"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="5"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="6"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="a0c0-32db-64f9-3189" name="The Same Coin" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>If choosing Fate for your gang, you must also include Justice.</description>
+        </rule>
+        <rule id="77c8-8517-bfb5-3aa1" name="The Other Side" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>You may only have 1 character with this ability on the board at any time; do not deploy any others at the start of the game. At the start of each round, provided the other character hasn’t been killed, you may choose to place it within 1” of this character and then remove this character from the board. If this character is killed and the other hasn’t been, place the other character within 1” before removing this one. Life, Will, and Command Points are retained when a character is removed from play by this rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5c22-6ca1-4ae3-ef6c" name="Expert Offence " hidden="false" targetId="fef5-178f-8be2-b34a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4361-5c3d-b385-d905" name="Ethereal" hidden="false" targetId="1612-a49f-a568-1433" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="a52f-3a63-938d-8206" name="First Strike " hidden="false" targetId="575b-9882-26b0-5565" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="be8c-ea1b-5317-26aa" name="Mindless" hidden="false" targetId="0de7-21e4-39ea-5e7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59cb-359d-fe0a-8ee5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="3823-b674-9e55-60f5" name="Heroes" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dd76-500d-91ca-9c0b" name="Sword of Balance" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="75b2-f5eb-53c7-c997" name="Sword of Balance" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="1&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="+2"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-6"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Two-handed"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8ec0-1b08-18f5-b660" name="Two-handed" hidden="false" targetId="e7dd-ff41-27d1-40cd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="03f5-3b9b-c6d9-ba45" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2058-6fdf-d333-d65d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0501-d346-2949-00f0" name="Pantaleone" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="7585-70c3-48bb-056e" name="Pantaleone" hidden="false" profileTypeId="434c-1d3d-1d6c-bd67" profileTypeName="Henchmen">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="eaf6-b8da-c7b6-89ca" value="2"/>
+            <characteristic name="Life" characteristicTypeId="40e3-666d-ed09-bec5" value="11"/>
+            <characteristic name="Will" characteristicTypeId="2762-71f3-d9d0-5ad1" value="4"/>
+            <characteristic name="Command" characteristicTypeId="7c80-a01f-227e-9df6" value="-"/>
+            <characteristic name="Size" characteristicTypeId="08ca-44b0-5306-b9c1" value="30"/>
+            <characteristic name="Keywords" characteristicTypeId="3101-6beb-3750-26e2" value="Human, Unique, Commedia dell’Arte"/>
+            <characteristic name="MOV" characteristicTypeId="6bc4-1a4e-ca0a-d0b6" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="cbcf-1e9c-6663-3648" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="cd52-99be-a438-fbc9" value="4"/>
+            <characteristic name="PRO" characteristicTypeId="1ea3-5687-97a8-b9ba" value="3"/>
+            <characteristic name="Mind" characteristicTypeId="5af8-f356-bfc6-7950" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="b5d8-da16-108d-c37a" name="Burning Breath" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The Fire Breath weapon may only be used once per game.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="404c-8eaf-cc30-f910" name="Slippery " hidden="false" targetId="8220-3a12-50b8-a444" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="945c-6d66-f098-4500" name="Hunter" hidden="false" targetId="970a-437d-4740-b355" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="641e-d3a7-be53-aec2" name="Pickpocket" hidden="false" targetId="9414-cd95-3f15-740d" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bd6-6bb1-ba59-e637" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d605-159e-d35b-1561" name="New CategoryLink" hidden="false" targetId="4af5-dde4-b2f7-8b76" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1fc2-8f43-0124-a263" name="Grenade" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c82f-11ae-4481-eb01" name="Grenade" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="6&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="+1"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="+2"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Black Powder, Blast, Reload (1)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="7585-4c12-308e-2789" name="Black Powder" hidden="false" targetId="bac0-afee-071d-71ff" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="a766-7f89-036b-5280" name="Blast" hidden="false" targetId="fd10-6b84-2b51-b46f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="72e9-f9c9-1599-c3a7" name="Reload" hidden="false" targetId="5f1e-7be2-0491-e6b9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="append" field="name" value="(1)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0b5-54f2-cc78-4404" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe04-229d-e36e-f4ed" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0994-affe-28e6-398f" name="Fire Breath" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1633-6f8a-12db-30ca" name="Fire Breath" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-7"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Two-handed, Template"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="2ab4-388a-6d7f-7a27" name="Two-handed" hidden="false" targetId="e7dd-ff41-27d1-40cd" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="dc38-1696-3c56-806b" name="Template" hidden="false" targetId="cfcb-08ff-8978-fb6f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c28-80e6-dc4b-83c3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdc1-26d9-4458-9ce8" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3675-f32a-53e1-5687" name="Smoke Bomb" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="23a4-afc6-d267-7807" name="Smoke Bomb" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="6&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="+1"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Blast, Harmless, Smoke"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="5818-66c9-a897-1fb7" name="Harmless" hidden="false" targetId="f69a-0eb5-c0bf-44b4" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="75f4-3b0a-17f1-a062" name="Blast" hidden="false" targetId="fd10-6b84-2b51-b46f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6ac2-f60a-9666-ffb2" name="Smoke" hidden="false" targetId="d700-162c-9d25-5b32" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="764a-c154-0b1e-8cae" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aad3-ffd4-58ac-1006" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ead3-f95f-12c4-a394" name="The Aberration" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="e6d6-61c1-87c2-0c35" name="The Aberration" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="2"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="22"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="10"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="-"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="50"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Monster, Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="5"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="6"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="1"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="5e34-3e91-7f85-1761" name="Brawler " hidden="false" targetId="4f31-7f38-48e7-a8a8" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6010-07d2-1e92-097f" name="Berserk" hidden="false" targetId="ebb5-0dc9-d231-40f6" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="c29f-43e8-38d6-7292" name="Mindless" hidden="false" targetId="0de7-21e4-39ea-5e7e" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+        <infoLink id="cabf-3c62-2917-6a4f" name="Concealment " hidden="false" targetId="7158-78f4-01d2-8862" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(-1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b026-466f-92cc-9fe5" name="Fear " hidden="false" targetId="6f00-19f3-4905-2eaf" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6b0-c4c5-7c37-3b12" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9a07-57a6-6f1f-bb36" name="New CategoryLink" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3259-ae9e-d01f-43e3" name="Monstrous Tentacles" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="1bec-89f2-a233-821f" name="Monstrous Tentacles" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="3&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="+1"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="+1"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Aquatic, Stun"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4bb1-ff13-d4f3-22cc" name="Stun" hidden="false" targetId="6c52-6161-1025-ca2f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="6704-07be-895c-0cbc" name="Aquatic" hidden="false" targetId="1219-6870-7ce2-bb48" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb16-91f1-5838-1e53" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e7a-6f12-27d2-9628" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2274-ce84-654c-48c8" name="The Artist" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="b09a-fe9d-2c15-3112" name="The Artist" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="2"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="12"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="6"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="-"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="2"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="3"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="9458-18b2-0e12-a725" name="Painted Protectors" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Once per activation, this character may use 1 Will to place a character in base contact that was previously removed from the game. This character functions exactly as it did before, except it gains Bodyguard (The Artist), has a MIND value of 1, and 4 Life. If this character ever ends its activation further than 3&quot; from The Artist, it is removed from the game. Each character can only be brought back in this way once.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="8ff3-8f85-fabc-bc2d" name="Expert Sorcerer " hidden="false" targetId="8889-9e7f-6ba9-bf82" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f768-edc2-b568-1823" name="Universal Shielding " hidden="false" targetId="99e5-3309-75bd-83b0" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="28a4-14b9-0ed5-39c5" name="Mage " hidden="false" targetId="b814-4bbd-d146-8837" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e423-42ab-19ff-546e" name="Slippery " hidden="false" targetId="8220-3a12-50b8-a444" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a6-09bc-6a96-6166" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d7a1-740e-d340-c567" name="New CategoryLink" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a05d-db71-461c-c0fa" name="Paint Brush" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="2fa1-6240-9658-40e2" name="Paint Brush" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="+1"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="260e-b83b-1c88-16e9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c12-2781-6763-6227" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="dfe9-22f0-f269-4376" name="Magic" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="0501-d878-a0ed-7c32" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a282-3888-eb98-59f6" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="0501-d878-a0ed-7c32" value="1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="61d9-16ca-2cd5-2a54" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0501-d878-a0ed-7c32" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="0131-0b02-08ad-24ad" name="Fateweaving" hidden="false" targetId="_Fateweaving" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="_Sovereignity" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="7d90-4812-acbc-216f" name="Magic" hidden="false" targetId="211e-de54-6609-279e" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="e6e7-4016-e35a-f5cc" name="Rune of Sovereignity" hidden="false" targetId="_Sovereignity" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <repeats/>
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="_Fateweaving" type="greaterThan"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints/>
+              <categoryLinks>
+                <categoryLink id="fb01-ed9a-54cd-a314" name="Magic" hidden="false" targetId="211e-de54-6609-279e" primary="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                </categoryLink>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="22.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e4d-bea5-d9df-b03d" name="The Duke" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="55b8-a8b6-767b-d936" name="The Duke" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="3"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="13"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="5"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="3"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="Disappear Into Darkness"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="5"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="4"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="5"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="7851-929d-79e4-1b81" name="Disappear Into Darkness" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When this character attacks with a smoke bomb, use this Command Ability. Remove this character and place them anywhere out of Base
+Contact within 12”. This placement cannot cause AoO.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="ff51-7673-b202-22f4" name="Acrobatic " hidden="false" targetId="e930-d79b-7ff5-4ab3" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1994-d401-2451-5b25" name="Slippery " hidden="false" targetId="8220-3a12-50b8-a444" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c5e0-c085-538d-9169" name="Bodyguard " hidden="false" targetId="3e3c-707a-057e-a093" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(Hero, Henchman)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cda0-06e5-cf40-653e" name="Expert Offence " hidden="false" targetId="fef5-178f-8be2-b34a" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a4d3-1315-f8f3-6be6" name="Infiltration" hidden="false" targetId="fe65-42b0-9650-cfd7" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0432-4ac8-9877-1b34" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9e1a-1449-e6fc-6de9" name="New CategoryLink" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8b97-945b-46f3-6523" name="Sword" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="73d6-8672-ecb1-0e34" name="Sword" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="+1"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a8f-ea38-691b-baf7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="488f-1f12-d321-2898" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b09a-cce6-af3a-18b5" name="Pistol" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0f6c-91ce-2340-4f54" name="Pistol" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="8&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="+1"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-1"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Black Powder, Reload (1)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="bcf2-bc84-c918-d8ef" name="Black Powder" hidden="false" targetId="bac0-afee-071d-71ff" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="aa7c-7b7b-b587-543c" name="Reload" hidden="false" targetId="5f1e-7be2-0491-e6b9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="append" field="name" value="(1)">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77d1-c55a-ae8a-82b3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e16d-fc57-d254-cabb" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b201-71ce-2643-84e7" name="Smoke Bomb" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9368-28a1-30c0-1dbd" name="Smoke Bomb" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="6&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="+1"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="Blast, Harmless, Smoke"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="4852-c1b7-a20e-1c00" name="Harmless" hidden="false" targetId="f69a-0eb5-c0bf-44b4" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="96a4-e62d-ce97-4938" name="Blast" hidden="false" targetId="fd10-6b84-2b51-b46f" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+            <infoLink id="ffda-7e2e-22c7-bbe2" name="Smoke" hidden="false" targetId="d700-162c-9d25-5b32" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f98-7a84-1d8a-f09d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e34b-87b1-6d31-2009" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="24.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="85c0-388b-8a01-83db" name="The Mask Maker" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="bcf2-8859-6820-c2f8" name="The Mask Maker" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="2"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="12"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="5"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="4"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="A Face For Every Occasion"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="4"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="3"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="4"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="2"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="25d1-dd51-3976-1755" name="A Face For Every Occasion" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>This character adds 2 to either MOV, ATT, DEX, Mind, or PRO until the start of its next activation.</description>
+        </rule>
+        <rule id="a075-1db2-073f-d155" name="Split Personalities" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>At the start of this character’s activation, pick one of the following for it to gain until the start of its next activation: Fear (3), Slippery (3), Vampiric Attack (3), or Water Creature. This character may only use its Command Points on its own Command Ability. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="12f4-690e-51c7-eebc" name="Concealment " hidden="false" targetId="7158-78f4-01d2-8862" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(+1)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcbb-73a9-a638-b2e3" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="39bb-0fab-520c-5cf0" name="New CategoryLink" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="5d56-9dca-505b-b7e5" name="Pliers" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0281-b4cb-2f0c-79c2" name="Pliers" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="0&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="-"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06bb-99fb-3510-e146" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a1e-c1fb-80a1-af93" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="17.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="60a1-507d-7c30-6c06" name="White Dove" hidden="false" collective="false" type="model">
+      <profiles>
+        <profile id="1cb3-f2e4-e663-8209" name="White Dove" hidden="false" profileTypeId="dde8-1174-e017-870c" profileTypeName="Heroes">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Actions" characteristicTypeId="72d6-992b-5590-176b" value="3"/>
+            <characteristic name="Life" characteristicTypeId="9a41-7019-e617-972c" value="15"/>
+            <characteristic name="Will" characteristicTypeId="1754-02ff-8003-3235" value="5"/>
+            <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="-"/>
+            <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
+            <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Unique"/>
+            <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="6"/>
+            <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="5"/>
+            <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="5"/>
+            <characteristic name="PRO" characteristicTypeId="3280-2f5c-a8e4-530b" value="4"/>
+            <characteristic name="Mind" characteristicTypeId="fa58-478d-e81b-1517" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks>
+        <infoLink id="0c0d-9f5e-38ec-7f7e" name="Expert Protection " hidden="false" targetId="8580-4b4f-fbcc-db52" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="920f-57ba-8634-1121" name="Expert Marksman " hidden="false" targetId="f78e-d895-77ef-c831" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="append" field="name" value="(2)">
+              <repeats/>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9849-ba33-3fc5-2f85" name="Flight" hidden="false" targetId="dab7-7d57-8187-8d24" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db35-ec4e-3660-d1c6" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="c887-98c7-2d7e-b96f" name="New CategoryLink" hidden="false" targetId="c763-ad73-dec9-923d" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2e47-f00c-6bfd-6761" name="Dove’s Kiss" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b9dc-6cbe-fcf8-fc88" name="Dove’s Kiss" hidden="false" profileTypeId="401c-998d-39b2-aa7e" profileTypeName="Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="RNG" characteristicTypeId="efec-5cbb-10a5-e5c0" value="8&quot;"/>
+                <characteristic name="EVD" characteristicTypeId="ba1e-a3ef-cbcc-3d8b" value="+1"/>
+                <characteristic name="DMG" characteristicTypeId="6052-1939-c8fc-eebd" value="-"/>
+                <characteristic name="PEN" characteristicTypeId="6862-06d6-41b5-e9ff" value="-2"/>
+                <characteristic name="Abilities" characteristicTypeId="57b3-c6fc-9af5-9e52" value="-"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c4b-a1ca-2439-dc5a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3980-e8f6-2b9f-53fd" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="24.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks/>
+  <sharedSelectionEntries/>
+  <sharedSelectionEntryGroups/>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
