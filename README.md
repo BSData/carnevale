@@ -23,11 +23,13 @@ Yeah! We have it hosted on AppSpot. Take a look: [BattleScribe Data on Appspot][
 ## Links ##
 [Links]: #links
 
+* [Carnevale][]
 * [BattleScribe homepage][]
 * [BattleScribe Data on Appspot][]
 * [Getting Started wiki][]
 
 
+[Carnevale]: http://carnevalegame.com/
 [BattleScribe homepage]: http://www.battlescribe.net/
 [BattleScribe Data on Appspot]: http://battlescribedata.appspot.com/#/repos
 [Getting Started wiki]: https://github.com/BSData/catalogue-development/wiki/Getting-Started#contributing
