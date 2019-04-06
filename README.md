@@ -3,8 +3,13 @@ Carnevale
 
 #### Contents ####
 
+* [Contact][]
 * [Overview][]
 * [Links][]
+
+## Contact ##
+[Contact]: #contact
+kojohan@gmail.com
 
 ## Overview ##
 [Overview]: #overview
