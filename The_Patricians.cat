@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="544d-db3d-de73-ac9f" name="The_Patricians" revision="1" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="544d-db3d-de73-ac9f" name="The_Patricians" revision="2" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="6ef1-1e6f-bf62-4091" name="The Patricians Command Ability" hidden="false">
@@ -31,7 +31,7 @@
             <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="-"/>
             <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
             <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
-            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Noble"/>
             <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="5"/>
             <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="5"/>
             <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="4"/>
@@ -864,7 +864,7 @@ may use this characters Will as if they were their own.</description>
             <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="3"/>
             <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
             <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="Gréve Vrat"/>
-            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Foreign"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Foreign, Noble"/>
             <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
             <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="5"/>
             <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="5"/>
@@ -1108,7 +1108,7 @@ may use this characters Will as if they were their own.</description>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="append" field="name" value="(Venetian Noble)">
+            <modifier type="append" field="name" value="(Noble)">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -1120,7 +1120,7 @@ may use this characters Will as if they were their own.</description>
           <rules/>
           <infoLinks/>
           <modifiers>
-            <modifier type="append" field="name" value="(Venetian Noble)">
+            <modifier type="append" field="name" value="(Noble)">
               <repeats/>
               <conditions/>
               <conditionGroups/>
@@ -2032,7 +2032,7 @@ may use this characters Will as if they were their own.</description>
             <characteristic name="Command" characteristicTypeId="2145-6a95-11b7-4096" value="2"/>
             <characteristic name="Size" characteristicTypeId="e7e5-57bf-d8c5-5e1e" value="30"/>
             <characteristic name="Command Ability" characteristicTypeId="aff7-3587-0753-6654" value="-"/>
-            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human"/>
+            <characteristic name="Keywords" characteristicTypeId="64e8-b729-04a3-920f" value="Human, Noble"/>
             <characteristic name="MOV" characteristicTypeId="c8b4-003c-10df-5cff" value="4"/>
             <characteristic name="DEX" characteristicTypeId="a7b3-f9ea-cee1-1524" value="4"/>
             <characteristic name="ATT" characteristicTypeId="b8b9-59b4-f669-5535" value="5"/>
@@ -2146,7 +2146,7 @@ may use this characters Will as if they were their own.</description>
             <characteristic name="Command" characteristicTypeId="4037-59fc-a7f6-c79c" value="4"/>
             <characteristic name="Size" characteristicTypeId="a4b0-8af3-88c8-bd44" value="30"/>
             <characteristic name="Command Ability" characteristicTypeId="9e13-ef36-a975-e1b3" value="Human Shield"/>
-            <characteristic name="Keywords" characteristicTypeId="43df-3e1f-2326-a467" value="Human"/>
+            <characteristic name="Keywords" characteristicTypeId="43df-3e1f-2326-a467" value="Human, Noble"/>
             <characteristic name="MOV" characteristicTypeId="f7e1-aba1-9f97-3e60" value="4"/>
             <characteristic name="DEX" characteristicTypeId="13e9-1455-3672-5955" value="5"/>
             <characteristic name="ATT" characteristicTypeId="6878-8eb2-b6ec-7247" value="5"/>
