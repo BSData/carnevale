@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="544d-db3d-de73-ac9f" name="The_Patricians" revision="2" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="544d-db3d-de73-ac9f" name="The_Patricians" revision="3" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="6ef1-1e6f-bf62-4091" name="The Patricians Command Ability" hidden="false">
@@ -355,7 +355,7 @@
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="15.0"/>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="13.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="281a-2c6a-cbf6-ccac" name="Captain of the Guard" hidden="false" collective="false" type="model">

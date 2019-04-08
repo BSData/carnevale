@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f9e8-6925-cac0-69db" name="The_Vatican" revision="1" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f9e8-6925-cac0-69db" name="The_Vatican" revision="2" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="15ca-5969-f1f1-2d00" name="Vatican Command Ability" hidden="false">
@@ -501,7 +501,7 @@ Will. | Fail: No effect. | Critical Add up Aces +2. The result is the number cha
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="16.0"/>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="11.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8720-9c62-e5e4-e87b" name="Summoner Priest" hidden="false" collective="false" type="model">
@@ -1737,7 +1737,7 @@ use its Command Points on its own Command Ability.</description>
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="16.0"/>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="12.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6cb3-c49c-6905-4bc1" name="Cross-bearing Deacon" hidden="false" collective="false" type="model">

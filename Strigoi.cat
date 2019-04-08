@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="4999-1a21-2206-5ab6" name="Strigoi" revision="1" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4999-1a21-2206-5ab6" name="Strigoi" revision="2" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules>
     <rule id="2ff4-8b2a-bd41-aee3" name="The Strigoi Command Ability" hidden="false">
@@ -818,7 +818,7 @@ rule) as if they were their own when they are within 6” of each other.</descri
       </selectionEntryGroups>
       <entryLinks/>
       <costs>
-        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="13.0"/>
+        <cost name="Ducats" costTypeId="0e27-4c36-6d9a-27c2" value="22.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1f3e-2339-386a-6858" name="Common Strigoi" hidden="false" collective="false" type="model">
