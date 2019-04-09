@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="680b-ddc1-8e64-df34" name="Gifted" revision="1" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="680b-ddc1-8e64-df34" name="Gifted" revision="2" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" gameSystemId="d92c-f139-ced0-7805" gameSystemRevision="21" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -280,8 +280,7 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>This character counts all base sizes as larger than it. This affects Hunter,
-Grappling, and Drowning, for example.</description>
+          <description>This character counts all base sizes as larger than it. This affects Hunter, Grappling, and Drowning, for example.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -408,8 +407,7 @@ Grappling, and Drowning, for example.</description>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Once per activation, pick a character in base contact with this one. That
-character loses 1 Will, and this character gains 1 Command Point. This character may only use Command Points on its own Command Ability. </description>
+          <description>Once per activation, pick a character in base contact with this one. That character loses 1 Will, and this character gains 1 Command Point. This character may only use Command Points on its own Command Ability.</description>
         </rule>
         <rule id="49d9-1d53-3964-a3c2" name="Narcissist" hidden="false">
           <profiles/>
@@ -2109,8 +2107,7 @@ character loses 1 Will, and this character gains 1 Command Point. This character
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>When this character attacks with a smoke bomb, use this Command Ability. Remove this character and place them anywhere out of Base
-Contact within 12”. This placement cannot cause AoO.</description>
+          <description>When this character attacks with a smoke bomb, use this Command Ability. Remove this character and place them anywhere out of Base Contact within 12”. This placement cannot cause AoO.</description>
         </rule>
       </rules>
       <infoLinks>

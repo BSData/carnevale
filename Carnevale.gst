@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="d92c-f139-ced0-7805" name="Carnevale" revision="1" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="d92c-f139-ced0-7805" name="Carnevale" revision="2" battleScribeVersion="2.01" authorName="Johan Larsson" authorContact="kojohan@gmail.com" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -323,13 +323,13 @@
     </selectionEntry>
     <selectionEntry id="71d3-85cc-8d2c-803f" name="Lantern" hidden="false" collective="false" type="unit">
       <profiles>
-        <profile id="b996-8893-0873-4999" name="Latern" hidden="false" profileTypeId="4838-7cb2-3ca9-8c5b" profileTypeName="Equipment">
+        <profile id="b996-8893-0873-4999" name="Lantern" hidden="false" profileTypeId="4838-7cb2-3ca9-8c5b" profileTypeName="Equipment">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <characteristics>
-            <characteristic name="Effect" characteristicTypeId="cdbc-54b3-318d-5bf5" value="Once per game, at the start of a round, pick a friendly character. All characters 6 inches (friendly or enemy) lose any bonuses from being in Cover until the end of the round."/>
+            <characteristic name="Effect" characteristicTypeId="cdbc-54b3-318d-5bf5" value="Once per game, at the start of a round, pick a friendly character. All characters within 6&quot; (friendly or enemy) lose any bonuses from being in Cover until the end of the round."/>
           </characteristics>
         </profile>
       </profiles>
@@ -470,7 +470,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="34f0-3603-1637-d148" name="Stun" hidden="false" targetId="6c52-6161-1025-ca2f" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca48-daac-58d2-800a" type="max"/>
